@@ -18,7 +18,7 @@ Esportare quindi il diagramma in png, caricarlo in un file html e pushare tutto 
 
 - id
 - name
-- type_departments
+- type_department
 - phone
 - email
 
@@ -49,7 +49,7 @@ Esportare quindi il diagramma in png, caricarlo in un file html e pushare tutto 
 - course_id
 - teacher_id
 
-# Table: student
+# Table: students
 
 - id
 - degree_id
