@@ -13,3 +13,61 @@ Pensiamo a quali entità (tabelle) creare per il nostro database e cerchiamo poi
 
 Utilizzare https://www.drawio.com/ per la creazione dello schema.
 Esportare quindi il diagramma in png, caricarlo in un file html e pushare tutto nella repo.
+
+# Table: departments
+
+- id
+- name
+- type_departments
+- phone
+- email
+
+# Table: degrees
+
+- id
+- department_id
+- name
+- app
+
+# Table: courses
+
+- id
+- name
+- app
+
+# Table: teachers
+
+- id
+- name
+- lastname
+- phone
+- email
+
+## Pivot Table: course_teacher
+
+- id
+- course_id
+- teacher_id
+
+# Table: student
+
+- id
+- degree_id
+- name
+- lastname
+- phone
+- email
+
+# Table: exams
+
+- id
+- course_id
+- data
+- start_time
+
+## Pivot Table exam_student
+
+- id 
+- exam_id
+- student_id
+- vote
